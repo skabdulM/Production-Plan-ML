@@ -1,0 +1,131 @@
+raw_material_available,machine_availability_percent,workforce_capacity_int,delay_reason,is_delay
+1,100,8,No Delay,0
+1,95,7,No Delay,0
+1,100,8,No Delay,0
+1,90,6,No Delay,0
+1,100,8,No Delay,0
+1,100,7,No Delay,0
+1,90,8,No Delay,0
+1,100,6,No Delay,0
+1,95,8,No Delay,0
+1,100,8,No Delay,0
+1,100,7,No Delay,0
+1,90,8,No Delay,0
+1,100,6,No Delay,0
+1,100,8,No Delay,0
+1,95,7,No Delay,0
+1,100,8,No Delay,0
+1,90,6,No Delay,0
+1,100,8,No Delay,0
+1,100,7,No Delay,0
+1,90,8,No Delay,0
+1,100,6,No Delay,0
+1,95,8,No Delay,0
+1,100,8,No Delay,0
+1,100,7,No Delay,0
+1,90,8,No Delay,0
+1,100,6,No Delay,0
+1,100,8,No Delay,0
+1,95,7,No Delay,0
+1,100,8,No Delay,0
+1,90,6,No Delay,0
+1,100,8,No Delay,0
+1,100,7,No Delay,0
+1,90,8,No Delay,0
+1,100,6,No Delay,0
+1,95,8,No Delay,0
+1,100,8,No Delay,0
+1,100,7,No Delay,0
+1,90,8,No Delay,0
+1,100,6,No Delay,0
+1,88,5,No Delay,0
+0,100,8,Raw Material Unavailability,1
+0,50,8,Raw Material Unavailability,1
+0,100,2,Raw Material Unavailability,1
+0,90,7,Raw Material Unavailability,1
+0,0,0,Raw Material Unavailability,1
+0,100,8,Raw Material Unavailability,1
+0,75,6,Raw Material Unavailability,1
+0,100,3,Raw Material Unavailability,1
+0,80,8,Raw Material Unavailability,1
+0,20,1,Raw Material Unavailability,1
+0,100,8,Raw Material Unavailability,1
+0,50,8,Raw Material Unavailability,1
+0,100,2,Raw Material Unavailability,1
+0,90,7,Raw Material Unavailability,1
+0,0,0,Raw Material Unavailability,1
+0,100,8,Raw Material Unavailability,1
+0,75,6,Raw Material Unavailability,1
+0,100,3,Raw Material Unavailability,1
+0,80,8,Raw Material Unavailability,1
+0,20,11,Raw Material Unavailability,1
+0,100,8,Raw Material Unavailability,1
+0,50,8,Raw Material Unavailability,1
+0,100,2,Raw Material Unavailability,1
+0,90,7,Raw Material Unavailability,1
+0,0,0,Raw Material Unavailability,1
+0,100,8,Raw Material Unavailability,1
+0,75,6,Raw Material Unavailability,1
+0,100,3,Raw Material Unavailability,1
+0,80,8,Raw Material Unavailability,1
+0,20,1,Raw Material Unavailability,1
+1,50,8,Machine Downtime,1
+1,40,7,Machine Downtime,1
+1,0,8,Machine Downtime,1
+1,20,6,Machine Downtime,1
+1,30,8,Machine Downtime,1
+1,10,7,Machine Downtime,1
+1,0,8,Machine Downtime,1
+1,45,6,Machine Downtime,1
+1,25,8,Machine Downtime,1
+1,5,7,Machine Downtime,1
+1,50,8,Machine Downtime,1
+1,40,7,Machine Downtime,1
+1,0,8,Machine Downtime,1
+1,20,6,Machine Downtime,1
+1,30,8,Machine Downtime,1
+1,10,7,Machine Downtime,1
+1,0,8,Machine Downtime,1
+1,45,6,Machine Downtime,1
+1,25,8,Machine Downtime,1
+1,5,7,Machine Downtime,1
+1,50,8,Machine Downtime,1
+1,40,7,Machine Downtime,1
+1,0,8,Machine Downtime,1
+1,20,6,Machine Downtime,1
+1,30,8,Machine Downtime,1
+1,10,7,Machine Downtime,1
+1,0,8,Machine Downtime,1
+1,45,6,Machine Downtime,1
+1,25,8,Machine Downtime,1
+1,5,7,Machine Downtime,1
+1,100,2,Workforce Shortage,1
+1,90,1,Workforce Shortage,1
+1,100,0,Workforce Shortage,1
+1,95,2,Workforce Shortage,1
+1,100,1,Workforce Shortage,1
+1,88,2,Workforce Shortage,1
+1,100,0,Workforce Shortage,1
+1,90,1,Workforce Shortage,1
+1,100,2,Workforce Shortage,1
+1,95,0,Workforce Shortage,1
+1,100,2,Workforce Shortage,1
+1,90,1,Workforce Shortage,1
+1,100,0,Workforce Shortage,1
+1,95,2,Workforce Shortage,1
+1,100,1,Workforce Shortage,1
+1,88,2,Workforce Shortage,1
+1,100,0,Workforce Shortage,1
+1,90,1,Workforce Shortage,1
+1,100,2,Workforce Shortage,1
+1,95,0,Workforce Shortage,1
+1,100,2,Workforce Shortage,1
+1,90,1,Workforce Shortage,1
+1,100,0,Workforce Shortage,1
+1,95,2,Workforce Shortage,1
+1,100,1,Workforce Shortage,1
+1,88,2,Workforce Shortage,1
+1,100,0,Workforce Shortage,1
+1,90,1,Workforce Shortage,1
+1,100,2,Workforce Shortage,1
+1,95,0,Workforce Shortage,1
