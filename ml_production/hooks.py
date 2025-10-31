@@ -139,7 +139,7 @@ app_license = "mit"
 
 doc_events = {
 	"Production Plan": {
-		"before_save": "ml_production.overrides.production_plan.run_delay_prediction",
+		"on_submit": "ml_production.overrides.production_plan.run_delay_prediction",
 	}
 }
 
