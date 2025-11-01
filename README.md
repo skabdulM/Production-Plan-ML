@@ -1,33 +1,99 @@
-### Ml Production
+# Predictive Production Delay Alert System
 
-ML Production Plan
+![Job Title: AI/ML ERPNext Developer](https://img.shields.io/badge/Job%20Title-AI%2FML%20ERPNext%20Developer-yellow)
+![ERPNext Manufacturing Module - AI-Powered Production Delay Predictor](https://img.shields.io/badge/ERPNext%20Manufacturing-AI%20Production%20Delay%20Predictor-blue)
 
-### Installation
+---
 
-You can install this app using the [bench](https://github.com/frappe/bench) CLI:
+## Assignment Title
+**“Predictive Production Delay Alert System”**
 
-```bash
-cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch develop
-bench install-app ml_production
-```
+---
 
-### Contributing
+## Background
 
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
+> One of **ALFASTACK**'s manufacturing clients frequently faces delays in their production orders due to **raw material unavailability**, **machine downtime**, and **workforce shortage**.
+>
+> They want a **smart system** that can **predict the likelihood of delay** in a new production order and **flag it early in ERPNext**.
 
-```bash
-cd apps/ml_production
-pre-commit install
-```
+---
 
-Pre-commit is configured to use the following tools for checking and formatting your code:
+## Assignment Objectives
 
-- ruff
-- eslint
-- prettier
-- pyupgrade
+### 1. Frappe App Customization (Manufacturing Module)
 
-### License
+- Extend the **Production Order** doctype with:
+  - **AI Delay Probability (%)**
+  - **Predicted Delay Reason** (select or free-text)
 
-mit
+---
+
+### 2. Simulated Dataset + ML Model
+
+- Simulate a dataset (**100–200 records**) of production orders with fields like:
+  - Planned start date
+  - Availability of raw materials
+  - Assigned workstations
+  - Machine availability %
+  - Shift capacity, etc.
+
+- Train a basic classifier (e.g., **logistic regression** or **decision tree**) to predict **probability of delay**
+
+- Include **rule-based logic** or **NLP-generated insights** if helpful
+
+---
+
+### 3. Workflow Integration
+
+- Create a **custom action** or **scheduled job** that, when triggered:
+  - Predicts delay risk
+  - Updates the new fields
+
+- Automatically flag **“high risk”** orders via:
+  - ERP status **color-coding**
+  - Or a **tag**
+
+---
+
+### 4. Deployment Simulation
+
+- Include:
+  - `Procfile`
+  - `Dockerfile`
+  - `requirements.txt`
+  - Bench compatibility
+
+---
+
+### 5. Presentation & Docs
+
+- **README** with:
+  - Architecture flow
+  - Model logic
+  - Use-case explanation
+
+- **Short screen recording (~5–10 min)** showing:
+  - Prediction in action on ERPNext frontend
+
+---
+
+## Skills Tested
+
+| Skill | Status |
+|------|--------|
+| ML understanding (classification problem) | Completed |
+| Real-world manufacturing logic awareness | Completed |
+| ERPNext backend customization | Completed |
+| DevOps & deployment readiness | Completed |
+| Communication & documentation clarity | Completed |
+
+---
+
+## Architecture Flow
+![Architecture Diagram](https://github.com/skabdulM/Production-Plan-ML/tree/develop/ml_production/public/assests/image.png)
+
+## Demo Video
+
+Here's a demo of the ML Production system:
+
+https://github.com/skabdulM/Production-Plan-ML/tree/develop/ml_production/public/assests/demo.mp4
