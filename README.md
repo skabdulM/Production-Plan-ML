@@ -90,10 +90,8 @@
 ---
 
 ## Architecture Flow
-![Architecture Diagram](https://github.com/skabdulM/Production-Plan-ML/tree/develop/ml_production/public/assests/image.png)
+![Architecture Diagram](./ml_production/public/assests/image.png)
+
 
 ## Demo Video
-
-Here's a demo of the ML Production system:
-
-https://github.com/skabdulM/Production-Plan-ML/tree/develop/ml_production/public/assests/demo.mp4
+[Watch the demo](./ml_production/public/assests/demoVideo.mp4)
